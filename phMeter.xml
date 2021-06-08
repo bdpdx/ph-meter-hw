@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\svcgu\OneDrive\Documents\KICAD\phMeter\phMeter.sch</source>
+    <date>6/7/2021 10:55:02 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>phMeter</title>
+        <company>svcguy</company>
+        <rev>A0</rev>
+        <date>2021-06-07</date>
+        <source>phMeter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>PH_PROBE</value>
+      <footprint>Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal</footprint>
+      <datasheet>https://s3-us-west-2.amazonaws.com/catsy.582/C031-71052.pdf</datasheet>
+      <fields>
+        <field name="Digikey">ARF2869-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BB941E</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LMP7721</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmp7721.pdf</datasheet>
+      <fields>
+        <field name="Digikey">LMP7721MA/NOPB-ND</field>
+      </fields>
+      <libsource lib="Custom_KiCAD" part="LMP7721" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BC5D2E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P</footprint>
+      <datasheet>https://datasheets.avx.com/TAJ_LOW_PROFILE.pdf</datasheet>
+      <fields>
+        <field name="Digikey">478-11592-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BCE132</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P</footprint>
+      <datasheet>https://datasheets.avx.com/TAJ_LOW_PROFILE.pdf</datasheet>
+      <fields>
+        <field name="Digikey">478-11592-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BD8FDB</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">RMCF0603FT4K70CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BFC9CF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">RMCF0603FT4K70CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BFCD77</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C204B7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C20A2D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">445-9065-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C374DA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C3A7D3</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">RMCF0603FT4K70CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C586C5</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">RMCF0603FT4K70CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C58A12</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C7A89F</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">445-9065-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C7B2A8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>QWIIC</value>
+      <footprint>Custom_KICAD:QWIIC_STEMMA_QT</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eSH.pdf</datasheet>
+      <fields>
+        <field name="Digikey">455-1804-1-ND</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="I2C_STANDARDQWIIC" description="SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Pinout Header SparkFun has standardized on a pinout for all I&lt;sup&gt;2&lt;/sup&gt;C based sensor breakouts.&lt;br&gt;&lt;br&gt;This pinout allows I&lt;sup&gt;2&lt;/sup&gt;C boards to be plugged directly into the headers on Arduino Uno compatible boards, andto be daisy chained easily. &lt;b&gt;Example SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/13676&quot;&gt;SparkFun Atmospheric Sensor Breakout - BME280&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11084 &gt;SparkFun Altitude/Pressure Sensor Breakout - MPL3115A2&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12785 &gt;SparkFun TOF Range Finder Sensor - VL6180&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB4DE4</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CF1D74</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">445-9065-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D082A2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D3487E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">311-1088-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D3D331</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>16.9k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">P16.9KHCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D97EF6</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D9CE12</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">P1.00KHCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E8F4F8</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">478-8928-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E90862</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>2.2uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">445-6933-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFCDB2</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>I2C</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">DNP</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1389D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MCP1501</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf</datasheet>
+      <fields>
+        <field name="Digikey">MCP1501T-10E/CHYCT-ND</field>
+      </fields>
+      <libsource lib="Custom_KiCAD" part="MCP1501" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF8DB8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ADM3260</value>
+      <footprint>Package_SO:SSOP-20_5.3x7.2mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/adm3260.pdf</datasheet>
+      <fields>
+        <field name="Digikey">ADM3260ARSZ-RL7CT-ND</field>
+      </fields>
+      <libsource lib="Custom_KiCAD" part="ADM3260" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA49AE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LMP7721</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmp7721.pdf</datasheet>
+      <fields>
+        <field name="Digikey">LMP7721MA/NOPB-ND</field>
+      </fields>
+      <libsource lib="Custom_KiCAD" part="LMP7721" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BC3664</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LTC2473</value>
+      <footprint>Package_SO:MSOP-12_3x4mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/24713fb.pdf</datasheet>
+      <fields>
+        <field name="Digikey">LTC2473CMS#PBF-ND</field>
+      </fields>
+      <libsource lib="Custom_KiCAD" part="LTC2473" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BFBD85</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">2019-RN73H1JTTD1002F100CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C24384</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">2019-RN73H1JTTD1002F100CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C26962</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>jlcpcb_smt:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">P1.00KHCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C4F1FB</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>jlcpcb_smt:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey">478-8928-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C62E9D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_KiCAD" part="ADM3260">
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/adm3260.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADM3260</field>
+        <field name="Footprint">Package_SO:SSOP-20_5.3x7.2mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GNDP" type="power_in"/>
+        <pin num="2" name="SCL2" type="output"/>
+        <pin num="3" name="SDA2" type="BiDi"/>
+        <pin num="4" name="VDDP" type="power_in"/>
+        <pin num="5" name="GNDP" type="power_in"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="GNDP" type="power_in"/>
+        <pin num="8" name="PDIS" type="input"/>
+        <pin num="9" name="VIN" type="power_in"/>
+        <pin num="10" name="GNDP" type="power_in"/>
+        <pin num="11" name="GNDISO" type="power_in"/>
+        <pin num="12" name="VISO" type="power_out"/>
+        <pin num="13" name="VSEL" type="passive"/>
+        <pin num="14" name="GNDISO" type="power_in"/>
+        <pin num="15" name="NC" type="NotConnected"/>
+        <pin num="16" name="GNDISO" type="power_in"/>
+        <pin num="17" name="VDDISO" type="power_in"/>
+        <pin num="18" name="SDA1" type="BiDi"/>
+        <pin num="19" name="SCL1" type="input"/>
+        <pin num="20" name="GNDISO" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_KiCAD" part="LMP7721">
+      <docs>https://www.ti.com/lit/ds/symlink/lmp7721.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMP7721</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="V-" type="power_in"/>
+        <pin num="4" name="VOUT" type="output"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="V+" type="power_in"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="IN-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_KiCAD" part="LTC2473">
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/24713fb.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC2473</field>
+        <field name="Footprint">Package_SO:MSOP-12_3x4mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REFOUT" type="output"/>
+        <pin num="2" name="COMP" type="passive"/>
+        <pin num="3" name="A0" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="SDA" type="BiDi"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="REF-" type="passive"/>
+        <pin num="9" name="IN+" type="input"/>
+        <pin num="10" name="IN-" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_KiCAD" part="MCP1501">
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1501</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~SHDN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="I2C_STANDARDQWIIC">
+      <description>SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Pinout Header SparkFun has standardized on a pinout for all I&lt;sup&gt;2&lt;/sup&gt;C based sensor breakouts.&lt;br&gt;&lt;br&gt;This pinout allows I&lt;sup&gt;2&lt;/sup&gt;C boards to be plugged directly into the headers on Arduino Uno compatible boards, andto be daisy chained easily. &lt;b&gt;Example SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13676"&gt;SparkFun Atmospheric Sensor Breakout - BME280&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11084 &gt;SparkFun Altitude/Pressure Sensor Breakout - MPL3115A2&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12785 &gt;SparkFun TOF Range Finder Sensor - VL6180&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*1X04_1MM_RA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">I2C_STANDARDQWIIC</field>
+        <field name="Footprint">1X04_1MM_RA</field>
+        <field name="Field4">CONN-13729</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Custom_KiCAD">
+      <uri>C:/Users/svcgu/OneDrive/Documents/KICAD/custom-kicad/custom_kicad.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="SparkFun-Connectors">
+      <uri>C:/Users/svcgu/OneDrive/Documents/KICAD/lib/SparkFun-KiCad-Libraries/Libraries/SparkFun-Connectors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="8"/>
+      <node ref="J3" pin="4"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="2" name="VDD">
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="9"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="C7" pin="1"/>
+      <node ref="U3" pin="17"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="4" name="/PROBE_V_OUT">
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="7" name="/VREF">
+      <node ref="U4" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="10"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="11" name="/SCL">
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="12" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="13" name="/SCL_ISO">
+      <node ref="U3" pin="19"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="14" name="/SDA_ISO">
+      <node ref="U3" pin="18"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="16" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="17" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="18" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="19" name="GNDS">
+      <node ref="U1" pin="4"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U5" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="20"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad2)">
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="4"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="21" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="22" name="Net-(R7-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="23" name="/SDA">
+      <node ref="U3" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+  </nets>
+</export>
