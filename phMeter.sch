@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "phMeter"
 Date "2021-06-07"
-Rev "B0"
+Rev "C0"
 Comp "svcguy"
 Comment1 ""
 Comment2 ""
@@ -654,37 +654,30 @@ Wire Wire Line
 $Comp
 L Device:R_US R3
 U 1 1 60E8F4F8
-P 6350 1900
-F 0 "R3" V 6145 1900 50  0000 C CNN
-F 1 "1k" V 6236 1900 50  0000 C CNN
-F 2 "jlcpcb_smt:R_0603_1608Metric" V 6390 1890 50  0001 C CNN
-F 3 "~" H 6350 1900 50  0001 C CNN
-F 4 "P1.00KHCT-ND" H 6350 1900 50  0001 C CNN "Digikey"
-	1    6350 1900
+P 5700 1900
+F 0 "R3" V 5495 1900 50  0000 C CNN
+F 1 "1k" V 5586 1900 50  0000 C CNN
+F 2 "jlcpcb_smt:R_0603_1608Metric" V 5740 1890 50  0001 C CNN
+F 3 "~" H 5700 1900 50  0001 C CNN
+F 4 "P1.00KHCT-ND" H 5700 1900 50  0001 C CNN "Digikey"
+	1    5700 1900
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C5
 U 1 1 60E90862
-P 6000 2450
-F 0 "C5" H 6115 2496 50  0000 L CNN
-F 1 "1uF" H 6115 2405 50  0000 L CNN
-F 2 "jlcpcb_smt:C_0603_1608Metric" H 6038 2300 50  0001 C CNN
-F 3 "~" H 6000 2450 50  0001 C CNN
-F 4 "478-8928-1-ND" H 6000 2450 50  0001 C CNN "Digikey"
-	1    6000 2450
+P 5950 2450
+F 0 "C5" H 6065 2496 50  0000 L CNN
+F 1 "0.1uF" H 6065 2405 50  0000 L CNN
+F 2 "jlcpcb_smt:C_0603_1608Metric" H 5988 2300 50  0001 C CNN
+F 3 "~" H 5950 2450 50  0001 C CNN
+F 4 "311-1088-1-ND" H 5950 2450 50  0001 C CNN "Digikey"
+	1    5950 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 2600 6000 2650
-Wire Wire Line
-	6200 1900 6000 1900
-Wire Wire Line
-	6000 1900 6000 2300
-Wire Wire Line
-	6000 1900 5600 1900
-Connection ~ 6000 1900
-Text Label 5600 1900 2    50   ~ 0
+	5950 2600 5950 2650
+Text Label 5400 1900 2    50   ~ 0
 PROBE_V_OUT
 Text Label 1900 4900 2    50   ~ 0
 VREF
@@ -875,12 +868,12 @@ Wire Wire Line
 $Comp
 L power:GNDS #PWR03
 U 1 1 60C1ECC9
-P 6000 2650
-F 0 "#PWR03" H 6000 2400 50  0001 C CNN
-F 1 "GNDS" H 6005 2477 50  0000 C CNN
-F 2 "" H 6000 2650 50  0001 C CNN
-F 3 "" H 6000 2650 50  0001 C CNN
-	1    6000 2650
+P 5950 2650
+F 0 "#PWR03" H 5950 2400 50  0001 C CNN
+F 1 "GNDS" H 5955 2477 50  0000 C CNN
+F 2 "" H 5950 2650 50  0001 C CNN
+F 3 "" H 5950 2650 50  0001 C CNN
+	1    5950 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1086,7 +1079,7 @@ $EndComp
 Wire Wire Line
 	7750 2650 8050 2650
 Wire Wire Line
-	7450 1900 6500 1900
+	7450 1900 5950 1900
 $Comp
 L Device:R_US R9
 U 1 1 60C24384
@@ -1139,41 +1132,34 @@ Wire Wire Line
 Connection ~ 1250 7100
 Wire Wire Line
 	1250 7100 1250 7150
-Text Label 5600 2000 2    50   ~ 0
+Text Label 5400 2000 2    50   ~ 0
 VREF
 $Comp
 L Device:R_US R4
 U 1 1 60C4F1FB
-P 6650 2000
-F 0 "R4" V 6750 2000 50  0000 C CNN
-F 1 "1k" V 6850 2000 50  0000 C CNN
-F 2 "jlcpcb_smt:R_0603_1608Metric" V 6690 1990 50  0001 C CNN
-F 3 "~" H 6650 2000 50  0001 C CNN
-F 4 "P1.00KHCT-ND" H 6650 2000 50  0001 C CNN "Digikey"
-	1    6650 2000
+P 6150 2000
+F 0 "R4" V 6250 2000 50  0000 C CNN
+F 1 "1k" V 6350 2000 50  0000 C CNN
+F 2 "jlcpcb_smt:R_0603_1608Metric" V 6190 1990 50  0001 C CNN
+F 3 "~" H 6150 2000 50  0001 C CNN
+F 4 "P1.00KHCT-ND" H 6150 2000 50  0001 C CNN "Digikey"
+	1    6150 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5600 2000 6400 2000
-Wire Wire Line
-	6800 2000 7450 2000
+	6300 2000 6400 2000
 $Comp
 L Device:C C6
 U 1 1 60C62E9D
 P 6400 2450
 F 0 "C6" H 6515 2496 50  0000 L CNN
-F 1 "1uF" H 6515 2405 50  0000 L CNN
+F 1 "0.1uF" H 6515 2405 50  0000 L CNN
 F 2 "jlcpcb_smt:C_0603_1608Metric" H 6438 2300 50  0001 C CNN
 F 3 "~" H 6400 2450 50  0001 C CNN
-F 4 "478-8928-1-ND" H 6400 2450 50  0001 C CNN "Digikey"
+F 4 "311-1088-1-ND" H 6400 2450 50  0001 C CNN "Digikey"
 	1    6400 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6400 2000 6400 2300
-Connection ~ 6400 2000
-Wire Wire Line
-	6400 2000 6500 2000
 $Comp
 L power:GNDS #PWR04
 U 1 1 60C6CDDE
@@ -1193,8 +1179,24 @@ Text Notes 600  750  0    100  Italic 20
 Notes
 Text Notes 650  1200 0    50   ~ 0
 1 - C7, C14 are low leakage tantalums, all others standard 0603 MLCC\n2 - R9, R10 are metal film 1% or better,  R7, R8 are 1% or better, all others standard 0603\n3 - Guard ring trace should encircle high impedance trace on top side and have a copper fill \non bot side under high impedence trace\n4 - J1 is a BNC type connector, impedence not specified
-Text Notes 11800 800  0    50   ~ 0
-A0 - Inital revision\nB0 - Fix LMP7721 symbols, replace VREF resistor network with\n       discrete resistors, replace LTC2471 with LTC2473 and use\n       VREF as IN-, add LPF to VREF
+Text Notes 11800 950  0    50   ~ 0
+A0 - Inital revision\nB0 - Fix LMP7721 symbols, replace VREF resistor network with\n       discrete resistors, replace LTC2471 with LTC2473 and use\n       VREF as IN-, add LPF to VREF\nC0 - Change C5, C6 to 0.1uF according to LTC2473 datasheet,\n       move C5, C6 closer to LTC2473, Add LTC2473 I2C address note\n
 Text Notes 11800 400  0    100  Italic 20
 Changelog
+Text Notes 7150 3200 0    50   Italic 0
+A0 = GND, I2C ADDRESS = 0x14
+Wire Wire Line
+	5400 1900 5550 1900
+Wire Wire Line
+	5950 2300 5950 1900
+Connection ~ 5950 1900
+Wire Wire Line
+	5950 1900 5850 1900
+Wire Wire Line
+	5400 2000 6000 2000
+Wire Wire Line
+	6400 2300 6400 2000
+Connection ~ 6400 2000
+Wire Wire Line
+	6400 2000 7450 2000
 $EndSCHEMATC

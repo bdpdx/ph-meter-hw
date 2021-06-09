@@ -1,8 +1,7 @@
 Reference, Quantity, Value, Footprint, Datasheet, Digikey
 C15 ,1,"2.2uF","jlcpcb_smt:C_0603_1608Metric","~","445-6933-1-ND"
 C3 C9 C13 ,3,"10uF","jlcpcb_smt:C_0603_1608Metric","~","445-9065-1-ND"
-C1 C2 C4 C8 C10 C11 C12 ,7,"0.1uF","jlcpcb_smt:C_0603_1608Metric","~","311-1088-1-ND"
-C5 C6 ,2,"1uF","jlcpcb_smt:C_0603_1608Metric","~","478-8928-1-ND"
+C1 C2 C4 C5 C6 C8 C10 C11 C12 ,9,"0.1uF","jlcpcb_smt:C_0603_1608Metric","~","311-1088-1-ND"
 C7 C14 ,2,"0.1uF","Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P","https://datasheets.avx.com/TAJ_LOW_PROFILE.pdf","478-11592-1-ND"
 J1 ,1,"PH_PROBE","Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal","https://s3-us-west-2.amazonaws.com/catsy.582/C031-71052.pdf","ARF2869-ND"
 J2 ,1,"QWIIC","Custom_KICAD:QWIIC_STEMMA_QT","https://www.jst-mfg.com/product/pdf/eng/eSH.pdf","455-1804-1-ND"
